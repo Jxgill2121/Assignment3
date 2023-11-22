@@ -1,3 +1,6 @@
-document.getElementById('toggleTheme').addEventListener('click', function() {
-    document.body.classList.toggle('light-theme');
-});
+<script>
+    function toggleTheme() {
+        const body = document.body;
+        body.classList.toggle('light-theme');
+    }
+</script>

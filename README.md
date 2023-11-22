@@ -29,6 +29,10 @@ Links to my professional social media profiles, including LinkedIn, GitHub, and 
 - JavaScript
 - [Other Technologies/Frameworks]
 
+## Reason for choosing Apache
+
+The Apache License is a good choice because it is permissive and business-friendly, allowing users considerable freedom with your software. It allows them to use, modify, distribute, and even sell your work, while still protecting your original work from patent risks and preserving your copyright. This license is well-suited for ensuring open collaboration while maintaining legal protection and clarity.  
+
 ## Setup and Local Viewing
 
 To set up and view this website locally:

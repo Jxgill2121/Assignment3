@@ -1,19 +1,38 @@
-#Jashan Gill's Personal Website
+# Jashan Gill's Personal Website
 
-Welcome to the repository for my personal website! This site is a comprehensive showcase of my skills, projects, and professional journey. Designed with simplicity and user experience in mind, it serves as a portal to my world in software development and design.
+Welcome to the GitHub repository for my personal website. This site serves as a dynamic showcase of my journey in software development, featuring my projects, skills, and academic achievements.
 
-Features
-About Me: Get to know me, my background, and what drives me in the field of software development.
-Projects: Explore my portfolio of projects, highlighting my skills and contributions to various initiatives.
-Skills: A rundown of the programming languages and tools I am proficient in.
-Work Experience: Insight into my professional experiences and the roles I've undertaken in the tech industry.
-Education: Information about my academic journey in Software Systems at Simon Fraser University.
-Social Media Links: Connect with me on various platforms including LinkedIn, GitHub, Instagram, and more.
-Interactive Design: A toggle feature to switch between light and dark themes, enhancing user experience.
-Technologies Used
-HTML
-CSS
-JavaScript
-[Add any other technologies/frameworks used]
-Setup and Usage
-To view the website locally:
+## Features
+
+### About Me
+Get to know more about me, my background, and my passion for software development.
+
+### Projects
+Explore a portfolio of my projects that highlight my skills in software development and design.
+
+### Skills
+A comprehensive list of my technical skills, including programming languages and tools.
+
+### Work Experience
+Insights into my professional experience in the tech industry, showcasing my roles and contributions.
+
+### Education
+Details about my academic journey in Software Systems at Simon Fraser University, with an expected graduation in 2025.
+
+### Social Media
+Links to my professional social media profiles, including LinkedIn, GitHub, and more.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- [Other Technologies/Frameworks]
+
+## Setup and Local Viewing
+
+To set up and view this website locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git

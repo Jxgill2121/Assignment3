@@ -1,45 +1,67 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Favicon link -->
 </head>
-<body style="background-color: darkgray;">
+<body>
     <div class="container">
-        <h1>Welcome to my personal website!</h1>
-        <p>This is where I showcase my skills, projects, and achievements.</p>
-        <div class="section">
+        <h1>Welcome to My Personal Website</h1>
+        <button id="toggleTheme">Toggle Theme</button>
+
+        <section id="about">
             <h2>About Me</h2>
-    
-        </div>
-        <div class="section">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+            <p>Short bio about yourself...</p>
+        </section>
+
+        <section id="projects">
             <h2>Projects</h2>
-        </div>
-        <div class="section">
-            <h2>Skills</h2>
-            <ul class="skills">
- 
+            <ul>
+                <li><a href="https://github.com/your-project-link">Project 1</a></li>
+                <!-- More projects -->
             </ul>
-        </div>
-        <div class="section">
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <!-- List skills here -->
+        </section>
+
+        <section id="social-media">
             <h2>Social Media</h2>
-          
-        </div>
-        <div class="section">
-      
-        </div>
-        <div class="section">
+            <ul>
+                <li><a href="https://linkedin.com/in/yourusername">LinkedIn</a></li>
+                <li><a href="https://github.com/yourusername">GitHub</a></li>
+                <li><a href="https://instagram.com/yourusername">Instagram</a></li>
+                <li><a href="https://yourslack.com">Slack</a></li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <p>Details about your work experience...</p>
+        </section>
+
+        <section id="volunteering">
             <h2>Volunteer Experience</h2>
-        </div>
-        <div class="section">
+            <p>Details about your volunteer work...</p>
+        </section>
+
+        <section id="education">
             <h2>Education</h2>
-        </div>
-        <div class="section">
-            <h2>What I'm Passionate About</h2>
-            <!-- Add your passions here -->
-        </div>
+            <p>Details about your educational background...</p>
+        </section>
+
+        <section id="resume">
+            <h2>Resume</h2>
+            <a href="resume.pdf">Download My Resume</a>
+        </section>
     </div>
 
-
+    <script src="script.js"></script>
 </body>
-
 </html>

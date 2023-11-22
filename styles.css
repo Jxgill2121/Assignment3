@@ -151,3 +151,8 @@ img {
     display: block;
     margin: 20px auto;
 }
+
+.light-theme {
+    background-color: white; /* Light background */
+    color: black; /* Dark text */
+}

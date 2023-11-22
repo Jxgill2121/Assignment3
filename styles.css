@@ -147,7 +147,7 @@ img {
 
 .cpp-image, .sfu-image {
     max-width: 200px; /* adjust as needed */
-    height: 200px;
+    height: 10px;
     display: block;
     margin: 20px auto;
 }

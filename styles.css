@@ -137,3 +137,17 @@ img {
     height: auto; /* Maintain aspect ratio */
 }
 
+.profile-pic {
+    max-width: 100px; /* smaller than before */
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+.cpp-image, .sfu-image {
+    max-width: 200px; /* adjust as needed */
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}

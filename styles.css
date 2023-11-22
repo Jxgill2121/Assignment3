@@ -129,3 +129,20 @@ section h2 {
 #social-media a:hover {
     text-decoration: underline;
 }
+/* General rule for centering all images */
+img {
+    display: block;
+    margin: 0 auto; /* Center the image */
+    max-width: 100%; /* Ensure it's responsive and doesn't overflow its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Custom class for the C++ image */
+.cpp-image {
+    max-width: 50%; /* Adjust the max-width as needed */
+}
+
+/* Custom class for the SFU image */
+.sfu-image {
+    max-width: 30%; /* Adjust the max-width as needed */
+}

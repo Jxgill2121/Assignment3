@@ -19,11 +19,23 @@ body {
     text-align: center;
 }
 
+header {
+    margin-bottom: 40px;
+}
+
 button {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
 }
 
 /* Section Styles */
@@ -33,6 +45,7 @@ section {
 
 section h2 {
     margin-bottom: 20px;
+    color: #61dafb; /* Light blue for headings */
 }
 
 /* About Me Section */
@@ -44,28 +57,11 @@ section h2 {
     margin: 20px auto;
 }
 
-/* Projects Section */
-#projects ul {
-    list-style: none;
-    text-align: left;
-}
-
-#projects li {
-    margin-bottom: 10px;
-}
-
 /* Skills Section */
 .skills-list {
     list-style-type: none;
     text-align: left;
     margin: 20px 0;
-}
-
-.skills-image {
-    max-width: 200px;
-    height: auto;
-    display: block;
-    margin: 20px auto;
 }
 
 /* Work Experience Section */
@@ -102,30 +98,31 @@ section h2 {
 }
 
 /* Theme Toggle Button */
-button#toggleTheme {
+#toggleTheme {
     background-color: #444;
     color: white;
     border: none;
     border-radius: 5px;
 }
 
-button#toggleTheme:hover {
+#toggleTheme:hover {
     background-color: #555;
 }
 
+/* Social Media Section */
 #social-media ul {
     list-style-type: none;
     padding: 0;
-    text-align: center; /* Center the list */
+    text-align: center;
 }
 
 #social-media li {
-    display: inline; /* Display links in a line */
-    margin: 0 10px; /* Spacing between links */
+    display: inline;
+    margin: 0 10px;
 }
 
 #social-media a {
-    color: #61dafb; /* Light blue color for links */
+    color: #61dafb;
     text-decoration: none;
 }
 

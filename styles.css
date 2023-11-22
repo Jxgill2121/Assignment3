@@ -137,12 +137,3 @@ img {
     height: auto; /* Maintain aspect ratio */
 }
 
-/* Custom class for the C++ image */
-.cpp-image {
-    max-width: 50%; /* Adjust the max-width as needed */
-}
-
-/* Custom class for the SFU image */
-.sfu-image {
-    max-width: 30%; /* Adjust the max-width as needed */
-}

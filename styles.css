@@ -1,0 +1,50 @@
+/* Define some basic styles for the whole website */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Define some styles for the header section */
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.header h1 {
+  font-size: 36px;
+}
+
+.header p {
+  font-size: 18px;
+}
+
+/* Define some styles for the profile section */
+
+.profile {
+  width: 200px;
+}
+
+.profile img {
+  width: 100%;
+}
+
+/* Define some styles for the skills section */
+
+.skills {
+  display: flex;
+}
+
+.skills li {
+  list-style-type: none;
+}
+
+.skills li span.icon
